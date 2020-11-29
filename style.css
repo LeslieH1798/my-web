@@ -1,0 +1,344 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    padding: 0; /*	内边距*/
+    margin: 0; /*	外边距*/
+    font-size: 14px; /*	设置字号大小*/
+}
+a {}
+.hot_news a {
+    text-decoration: none;
+}
+.box {
+    /*	background-color: gold;	*/
+    width: 1140px;
+    margin: 0 auto;
+}
+.fl {
+    float: left
+}
+.fr {
+    float: right
+}
+.text-muted {color: #6c757d !important;
+}
+.text-left {text-align:left !important;
+}
+.ptitle {height: 48px;
+	     overflow:hidden;
+	     text-overflow: ellipsis;
+}
+.p {margin-top: o;
+    margin-bottom: 1rem; 
+}
+.navbar {
+    background-color: #007bff;
+    height: 50px;
+    width: 100%
+}
+.navbar a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 50px;
+    width: 103px;
+    display: block;
+    text-align: center;
+    float: left;
+}
+.navbar a:hover {
+    color: yellow
+}
+.nb {
+    color: #777
+}
+.nb h2 {
+    font-weight: 500;
+    border-bottom: 1px solid #ccc;
+    font-size: 30px;
+    padding: 10px 0
+}
+.hot_news h3 {
+    color: crimson;
+    text-align: center;
+    font-size: 28px;
+    margin: 0;
+}
+.nb h2 span {
+    font-size: 20px;
+    color: #999;
+}
+.nb .l { /*    background-color: gold;*/ width: 40%;
+}
+.nb .l img {
+    width: 100%;
+    height: auto
+}
+.nb .l h3 {
+    margin: 0;
+}
+.nb .l h3 a {
+    color: #007bff;
+    font-size: 20px;
+    font-weight: 450;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.nb .l h3 a:hover {
+    text-decoration: underline;
+    color: #00619F;
+}
+.nb .l p {}
+.nb .r p {
+    color: #666;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0.5em 0;
+}
+.nb .r {
+    /*    background-color: palevioletred;*/
+    width: 58%;
+    margin-left: 2%;
+}
+.hot_news {
+    border-bottom: dashed 1px #ddd;
+}
+.list_news {
+    padding-left: 0;
+}
+.list_news li {
+    line-height: 2.5em;
+    list-style: none;
+}
+.list_news li a {
+    color: #666;
+    font-size: 15px;
+    text-decoration: none;
+}
+.list_news li a:hover {
+    color: crimson;
+}
+.list_news span {
+    float: right;
+    color: #666;
+}
+.list_news i {
+    color: crimson;
+    padding-right: 0.5em;
+}
+.rd-news-box {
+    height: 503px;
+    width: 100%;
+    clear: left;
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    padding: 50px 0;
+    box-sizing: border-box;
+}
+.rd-news {
+    width: 1140px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .5);
+    margin: 0 auto;
+}
+.xz-item-ber {
+    width: 100%;
+    height: 47px;
+}
+.xz-item-ber .item {
+    height: 100%;
+    width: 25%;
+    float: left;
+    background-color: white;
+    text-align: center;
+    font-size: 22px;
+    line-height: 47px;
+}
+.active {
+    background-color: #0099CC !important;
+    color: aliceblue;
+}
+.rd-item-box {
+    height: 288px;
+    width: 1076px;
+    margin: 34px auto;
+}
+.rd-new-item {
+    height: 33.33%;
+    width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+.date {
+    background-image: url("./images/date.png");
+    float: left;
+    height: 100%;
+    width: 80px;
+    background-size: cover;
+    padding-top: 17px;
+    box-sizing: border-box;
+}
+.date p {
+    margin: 5px 0;
+    width: 100%;
+    text-align: center;
+}
+.rd-new-item > p {
+    width: clac(100% - 90px);
+    height: 100%;
+    margin: 0;
+    padding: 10px
+}
+.img_group {
+    margin: 40px auto 40px auto;
+    background-color: rgba(31, 172, 170, 0.55);	
+	margin-bottom: 40px;
+}
+.img_group .l {
+    width: 33%;
+}
+.img_group .l div {
+    height: 150px;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+.img_group .l div:nth-child(1) {
+    background-image: url("images/sxjid.jpg");
+    margin-bottom: 7px;
+}
+.img_group .l div:nth-child(2) {
+    background-image: url("images/mingshi.jpg");
+	margin-bottom: 40px;
+}
+.img_group .c {
+    width: 33%;
+    height: 307px;
+    margin: 0 0.5%;
+    background-image: url("images/xiaoyuan.jpg");
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+	
+}
+.img_group .c  samp{
+top: 260px;
+	}
+.img_group .r {
+    width: 33%;
+}
+.img_group .r div {
+    height: 150px;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+.img_group .r div:nth-child(1) {
+    background-image: url("images/xsfc.jpg");
+    margin-bottom: 7px;
+}
+.img_group .r div:nth-child(2) {
+    background-image: url("images/quwei.jpg");
+	margin-bottom: 40px;
+}
+.img_group samp {
+    display: inline-block;
+    width: 100px;
+    line-height: 35px;
+    background-color: rgba(232, 188, 5, 0.69);
+    text-align: center;
+    color: white;
+    position:absolute ;
+    top: 105px;
+}
+.zszy { 
+	height: 300px;
+	width: 100%;
+	background-image: url("images/bg3.jpg");
+	background-size: cover;
+	clear: both;
+	}
+.zszy .zszy2 {
+	width: 100%;
+	margin-left: auto;
+}
+.zszy .zszy2 .zszywz{
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+	
+}
+.zszy .zszy2 .zszywz .sz{
+	color: white;
+	text-align: center;
+	margin-bottom: auto;
+	padding-top: 0.5rem;
+	padding-bottom: 3rem;
+	margin-left: 700px;
+	
+}
+.yqlj{
+	height: 60px;
+	width: 100%;
+	background-color: darkgray;
+	margin-top: 10px;
+	clear: both;
+}
+.sz2{
+	color: white;
+	margin-left: 350px;
+	margin-top: -10px;
+	padding-top: 15px;
+}
+.jw{
+	height: 200px;
+	width: 100%;
+	background-color: darkslategray;
+	clear: both;
+	margin-top:10px;
+}
+.sz3{
+	color: white;
+	width: 35%;
+	margin-left: 350px;
+	margin-top: -10px;
+	padding-top: 25px;}
+.sz4{color: white;
+	margin-left: 18px;
+	margin-top: 90px;
+	
+}
+
+.wxt{
+	height:100px;;
+	width: 100px;
+	background-image: url("images/qrcode1.jpg");
+	background-size: cover;
+	margin-left: 1200px;
+	margin-top: -140px;
+}
+.wbt{height:100px;
+	width: 100px;
+	background-image: url("images/qrcode2.jpg");
+	background-size: cover;
+	margin-left: 1320px;
+	margin-top: -100px;
+}
+.dyt{height:100px;
+	width: 100px;
+	background-image:url("images/qrcode3.jpg");
+	background-size: cover;
+	margin-left: 1440px;
+	margin-top: -100px;
+	
+}
+.sz5{
+	color: white;
+	margin-top: 250px;
+	margin-left: -800px;
+	
+}
